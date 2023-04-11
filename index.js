@@ -28,7 +28,7 @@ app.use("/users", useRouter);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://word-hunt-59qf.onrender.com","http://localhost:3000"],
+    origin: ["https://word-hunt-indol.vercel.app","http://localhost:3000"],
     methods: ["GET", "POST"],
   },
 });
